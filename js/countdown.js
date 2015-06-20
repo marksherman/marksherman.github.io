@@ -5,7 +5,10 @@ var target_date = new Date('Sep, 4, 2016 18:00').getTime();
 var days, hours, minutes, seconds, ms_step=10;
  
 // get tag element
-var countdown = document.getElementById('countdown');
+//var countdown = document.getElementById('countdown');
+var cd_days = document.getElementById('cd_days');
+var cd_hours = document.getElementById('cd_hours');
+var cd_min = document.getElementById('cd_min');
  
 setInterval(function () {
     var current_date = new Date().getTime();
@@ -17,13 +20,9 @@ setInterval(function () {
     min = parseInt(seconds_left / 60);
     sec = parseInt(seconds_left % 60);
     ms = parseInt(target_date-current_date);
-     
-    // format countdown string + set tag value
-   countdown.innerHTML = ''+
-      '<span class="days">'+days+'<b>Days</b></span>'+
-      '<span class="hours">'+hours+'<b>Hours</b></span>'+
-      '<span class="minutes">'+min+'<b>Minutes</b></span>';  
-// this is just for milliseconds only
-  /* countdown.innerHTML = 
-      '<span class="ms">'+ms+' ms</span>'; */
+    
+    cd_days.innerHTML = days;
+    cd_hours.innerHTML = hours;
+    cd_min.innerHTML = min;
+
 }, ms_step);
