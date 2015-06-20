@@ -9,7 +9,6 @@
 
     <!-- Bootstrap -->
     <link href="css/bootstrap.min.css" rel="stylesheet">
-    <link href="css/ekko-lightbox.min.css" rel="stylesheet">
     <link href="style.css" rel="stylesheet">
     <link rel="icon" type="image/png" href="ringico.png">
 
@@ -21,6 +20,23 @@
       <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
     <![endif]-->
   </head>
+
+  <!-- Modal for Engagement Video -->
+  
+  <div class="modal fade" id="videoModal" tabindex="-1" role="dialog">
+    <div class="modal-dialog">
+      <div class="modal-content">
+        <div class="modal-body">
+          <div class="embed-responsive embed-responsive-16by9">
+            <iframe class="embed-responsive-item" src="http://www.youtube.com/embed/yvLtdCu0YIA?rel=0" allowfullscreen=""></iframe>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- Body -->
+
   <body class="full">
     <div class="container">
       <div class="row">
@@ -34,19 +50,19 @@
       </div> <!-- row -->
 
       <div class="row">
-        <div class="col-sm-offset-4 col-sm-3">
-                            <a href="http://distilleryimage6.ak.instagram.com/ba70b8e8030011e3a31b22000a1fbb63_7.jpg" data-toggle="lightbox" data-title="A random title" data-footer="A custom footer text">
-                                <img src="ringico.png" class="img-responsive">
-                            </a>
-                        </div>
-      </div>
+        <div class="col-md-12 text-center">
+          <button type="button" class="btn btn-primary" data-toggle="modal" data-target="#videoModal">
+            See the engagement
+          </button>
+      </div> <!-- row -->
 
     </div> <!-- container -->
+
+
     
     <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.2/jquery.min.js"></script>
     <!-- Include all compiled plugins (below), or include individual files as needed -->
     <script src="js/bootstrap.min.js"></script>
-    <script src="js/ekko-lightbox.min.js"></script>
   </body>
 </html>
