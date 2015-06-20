@@ -12,6 +12,7 @@
     <link href="style.css" rel="stylesheet">
     <link rel="icon" type="image/png" href="ringico.png">
 
+
     <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
     <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
     <!--[if lt IE 9]>
@@ -19,6 +20,23 @@
       <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
     <![endif]-->
   </head>
+
+  <!-- Modal for Engagement Video -->
+  
+  <div class="modal fade" id="videoModal" tabindex="-1" role="dialog">
+    <div class="modal-dialog">
+      <div class="modal-content">
+        <div class="modal-body">
+          <div class="embed-responsive embed-responsive-16by9">
+            <iframe class="embed-responsive-item" src="http://www.youtube.com/embed/yvLtdCu0YIA?rel=0" allowfullscreen=""></iframe>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- Body -->
+
   <body class="full">
     <div class="container">
       <div class="row">
@@ -30,7 +48,17 @@
           </div>
         </div>
       </div> <!-- row -->
+
+      <div class="row">
+        <div class="col-md-12 text-center">
+          <button type="button" class="btn btn-primary" data-toggle="modal" data-target="#videoModal">
+            See the engagement
+          </button>
+      </div> <!-- row -->
+
     </div> <!-- container -->
+
+
     
     <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.2/jquery.min.js"></script>
