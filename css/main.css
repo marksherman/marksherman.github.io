@@ -1133,7 +1133,7 @@ figcaption h4 a {
 	margin:0;
 	}
 .rsvpBack{
-	background:url('http://placehold.it/1820x718&text=1820px X 718px') no-repeat 50% 0;
+	background:url('../myimg/RSVP-background.png') no-repeat 50% 0;
 	background-size:cover;
 	padding-top:80px;
 	}
@@ -1359,7 +1359,7 @@ h3.succes_message {
 }
 .smallRound{
 	border-radius:50%;
-	width:202px; 
+	width:202px;
 	padding:11px;
 	border:1px solid #e8e6e3;
 	background:#fff;
