@@ -137,7 +137,7 @@ h3{
 	font-size:35px;
 	line-height:normal;
 	margin:0px 0 15px;
-	
+
 }
 h4{
 	font-family: "Times New Roman", Times, serif;
@@ -210,15 +210,15 @@ header{
 	position:absolute;
 	z-index:9999;
 }
-.logo h1{ 
+.logo h1{
 	font-family: 'Great Vibes', cursive;
 	font-weight:400;
-	line-height:normal; 
-	font-size:28px; 
-	padding:0; 
+	line-height:normal;
+	font-size:28px;
+	padding:0;
 	margin:24px 0 0;
 }
-.logo h1 a { 
+.logo h1 a {
 	font-family: 'Great Vibes', cursive;
 	color:#ee6593;
 }
@@ -457,17 +457,17 @@ ul.submenu{ display:none;}
 
 .stuckMenu{
 	background:#fff ;
-	
+
 	-o-transition: all .5s;
     -ms-transition: all .5s;
     -moz-transition: all .5s;
     -webkit-transition: all .5s;
     transition: all .5s;
-	
+
 }
 .isStuck{
 	background:#fff ;
-	
+
 	-o-transition: all .5s;
     -ms-transition: all .5s;
     -moz-transition: all .5s;
@@ -588,27 +588,27 @@ ul.language li ul li a:focus {
 /*----------------------------------------------------
 	5. The Couple
 ------------------------------------------------------*/
-.theCouple{ 
-	padding:0 5.89%; 
+.theCouple{
+	padding:0 5.89%;
 	text-align:center;
 	}
-ul.theCouple li{ 
+ul.theCouple li{
 	display:inline-block;
 	}
 
-.theCouple img{ 
-	display:block; 
+.theCouple img{
+	display:block;
 	margin:0 auto 47px;
 	}
-.theCouple h3{ 
-	text-align:center; 
-	margin-bottom:3px; 
+.theCouple h3{
+	text-align:center;
+	margin-bottom:3px;
 	color:#ee6593;
 	}
-.theCouple h5{ 
+.theCouple h5{
 	text-transform:uppercase;
 	}
-.theCouple p{ 
+.theCouple p{
 	text-align:center;
 	}
 .theCouple ul {
@@ -652,9 +652,9 @@ ul.theCouple li{
     font-size: 13px;
     line-height: 25px;
 }
-.line{ 
+.line{
 	background:url(../images/line-divider.png) no-repeat 50% 0;
-	height:435px; 
+	height:435px;
 	position:relative
 	}
 .line i {
@@ -664,21 +664,21 @@ ul.theCouple li{
     position: absolute;
     top: 43%;
 }
-.bigRound{ 
+.bigRound{
 	border-radius:50%;
-	width:234px; 
+	width:234px;
 	height:234px;
-	padding:11px; 
-	border:1px solid #e8e6e3; 
+	padding:11px;
+	border:1px solid #e8e6e3;
 	background:#fff;
 	}
 /*----------------------------------------------------
 	6. Events Schedule
 ------------------------------------------------------*/
-.events img{ 
-	margin:0 auto; 
-	display:block; 
-	width:100%; 
+.events img{
+	margin:0 auto;
+	display:block;
+	width:100%;
 	height:auto;
 	}
 .desc {
@@ -687,9 +687,9 @@ ul.theCouple li{
     padding:10%;
 }
 .desc p{ padding:0;}
-.desc h4{ 
-	color:#ee6593; 
-	font-family: 'Open Sans', sans-serif; 
+.desc h4{
+	color:#ee6593;
+	font-family: 'Open Sans', sans-serif;
 	font-weight:700;
 	text-transform:uppercase;
 	}
@@ -759,7 +759,7 @@ ul.theCouple li{
 /*----------------------------------------------------
 	7. People Section
 ------------------------------------------------------*/
-.pinkCircle .nameCircle, 
+.pinkCircle .nameCircle,
 .blueCircle .nameCircle {
     display: block;
     height: 245px;
@@ -813,47 +813,46 @@ ul.theCouple li{
 .circle {
 	padding-top:22px;
 }
-.smallTxt{ 
+.smallTxt{
 	font-size:39px !important;
 	}
 .smallRound{
-	width:202px; 
-	height:202px; 
-	padding:11px; 
-	border:1px solid #e8e6e3; 
+	width:202px;
+	padding:11px;
+	border:1px solid #e8e6e3;
 	background:#fff;
     -webkit-border-radius: 50%;
     -moz-border-radius: 50%;
     border-radius: 50%;
 	}
-.pinkCircle img{ 
+.pinkCircle img{
 	margin:0 auto;
 	}
 .bride {
 	margin-bottom:30px;
 }
-.bride ul li, .groom ul li{ 
+.bride ul li, .groom ul li{
 	display:inline-block;
 	}
-.bride ul li:last-child, .groom ul li:last-child{ 
+.bride ul li:last-child, .groom ul li:last-child{
 	margin-right:0;
 	}
-.bride ul li img, .groom ul li img{ 
-	display:block; 
+.bride ul li img, .groom ul li img{
+	display:block;
 	margin:0 auto 30px;
 	}
 .bride ul li h4, .groom ul li h4{
 	font-size:18px;
-	text-align:center; 
-	font-weight:700; 
-	color:#ee6593; 
-	font-family: 'Open Sans', sans-serif; 
+	text-align:center;
+	font-weight:700;
+	color:#ee6593;
+	font-family: 'Open Sans', sans-serif;
 	text-transform:uppercase;
 	}
-.bride ul li h4 span, .groom ul li h4 span{ 
-	text-transform:uppercase; 
+.bride ul li h4 span, .groom ul li h4 span{
+	text-transform:uppercase;
 	letter-spacing:3px; }
-.blueCircle img{ 
+.blueCircle img{
 	margin:0 auto;
 	}
 
@@ -941,20 +940,20 @@ span.hoverZoom{
 	right:15px;
 	bottom: 0px;
 	margin-left:15px;
-	
+
 	transition-duration: 0.2s;
 	-webkit-transition-duration: 0.2s;
-	
+
 	background: rgba(0, 0, 0, 0.1);
-	
+
 }
 ul.thumbnails li:hover span.hoverZoom{
 	visibility:visible;
 	left:0px;
 	bottom: 0px;
-	
+
 	background: rgba(0, 0, 0, 0.8);
-	
+
 	transition-duration: 0.2s;
 	-webkit-transition-duration: 0.2s;
 }
@@ -986,10 +985,10 @@ span.hoverZoom .zoom{
 	display: block;
 	float: left;
 	opacity:0;
-	
+
 	transition-duration: 0.2s;
 	-webkit-transition-duration: 0.2s;
-	
+
 	-webkit-border-radius: 50%;
 	border-radius: 50%;
 }
@@ -997,8 +996,8 @@ ul.thumbnails li:hover span.hoverZoom .zoom{
 	visibility:visible;
 	left:0;
 	opacity:1;
-	
-	
+
+
 	transition-duration: 0.2s;
 	-webkit-transition-duration: 0.2s;
 }
@@ -1008,7 +1007,7 @@ ul.thumbnails li:hover span.hoverZoom .zoom{
 /*----------------------------------------------------
 	 9. The Blog
 ------------------------------------------------------*/
-		
+
 ul.portfolioContainer{
 	display:block;
 	padding:0px;
@@ -1031,7 +1030,7 @@ ul.portfolioContainer li img{
 	 height:auto;
 	 display:block;
 }
-.metaInfo{ 
+.metaInfo{
 	font-size: 11px;
     font-style: italic;
     padding: 0 0 20px;
@@ -1076,7 +1075,7 @@ ul.portfolioContainer li img{
     transition-property: height, width;
 }
 .isotope .isotope-item {
-	
+
     -webkit-transition-property: -webkit-transform, opacity;
     -moz-transition-property: -moz-transform, opacity;
     transition-property: transform, opacity;
@@ -1120,7 +1119,7 @@ figcaption h4 a {
 ------------------------------------------------------*/
 
 .eventsLocation {
-	padding:0;	
+	padding:0;
 }
 .joinourParty {
 	padding:0;
@@ -1133,21 +1132,21 @@ figcaption h4 a {
 	line-height:49px;
 	margin:0;
 	}
-.rsvpBack{ 
-	background:url('http://placehold.it/1820x718&text=1820px X 718px') no-repeat 50% 0; 
+.rsvpBack{
+	background:url('http://placehold.it/1820x718&text=1820px X 718px') no-repeat 50% 0;
 	background-size:cover;
 	padding-top:80px;
 	}
-.rsvpBack h4{ 
-	font-size:19px; 
-	font-weight:700; 
-	color:#fff; 
-	margin-bottom:55px; 
-	font-family: 'Open Sans', sans-serif; 
-	text-transform:uppercase; 
+.rsvpBack h4{
+	font-size:19px;
+	font-weight:700;
+	color:#fff;
+	margin-bottom:55px;
+	font-family: 'Open Sans', sans-serif;
+	text-transform:uppercase;
 	letter-spacing:3px;
 	}
-.googleMap{ 
+.googleMap{
 	margin-bottom:160px;
 	}
 
@@ -1186,7 +1185,7 @@ figcaption h4 a {
 	color:#333850;
 	display:block;
 }
-.form-container .heartline{ 
+.form-container .heartline{
 	margin-bottom:30px;
 	}
 .form-row {
@@ -1237,11 +1236,11 @@ h3.succes_message {
 
 /* banner overlay */
 .patternOverlay {
-	background-image: -webkit-linear-gradient(top, #fd6682 0%, #78d4f8 100%);  
-    background-image: -moz-linear-gradient(top, #fd6682 0%, #78d4f8 100%);  
-    background-image: -ms-linear-gradient(top, #fd6682 0%, #78d4f8 100%);  
-    background-image: -o-linear-gradient(top, #fd6682 0%, #78d4f8 100%);  
-    background-image: linear-gradient(top, #fd6682 0%, #78d4f8 100%);  
+	background-image: -webkit-linear-gradient(top, #fd6682 0%, #78d4f8 100%);
+    background-image: -moz-linear-gradient(top, #fd6682 0%, #78d4f8 100%);
+    background-image: -ms-linear-gradient(top, #fd6682 0%, #78d4f8 100%);
+    background-image: -o-linear-gradient(top, #fd6682 0%, #78d4f8 100%);
+    background-image: linear-gradient(top, #fd6682 0%, #78d4f8 100%);
 	position:absolute;
 	top:0;
 	right:0;
@@ -1280,16 +1279,16 @@ h3.succes_message {
 
 
 /* backgrounds */
-.white_section {	
+.white_section {
 	background-color:#fff;
 }
-.grey_section {	
+.grey_section {
 	background-color:#fafafb;
 }
 .yellow_section {
 	background-color:#fbfaf4;
 }
-.lightYellow_section{ 
+.lightYellow_section{
 	background-color:#f9f8f8;
 	}
 .blue_section {
@@ -1344,14 +1343,14 @@ h3.succes_message {
 	 12. Responsive style
 ------------------------------------------------------*/
 
-@media only screen and (min-width: 992px) and (max-width : 1280px) {	
+@media only screen and (min-width: 992px) and (max-width : 1280px) {
 
 .line i{ left:27%;}
 .pinkCircle a img {
 	height: 242px !important;
 	width:242px !important;
 }
-.pinkCircle a em, .blueCircle a em{ 
+.pinkCircle a em, .blueCircle a em{
 	left:18%;
 	}
 .blueCircle a img{
@@ -1361,9 +1360,8 @@ h3.succes_message {
 .smallRound{
 	border-radius:50%;
 	width:202px; 
-	height:202px; 
-	padding:11px; 
-	border:1px solid #e8e6e3; 
+	padding:11px;
+	border:1px solid #e8e6e3;
 	background:#fff;
 	}
 /*.bride ul li img, .groom ul li img {
@@ -1387,7 +1385,7 @@ input.normal, select.normal, textarea.normal {
 }
 
 @media only screen and (min-width: 320px) and (max-width:991px) {
-	
+
 	.logo {
 		left:70px;
 	}
@@ -1400,7 +1398,7 @@ input.normal, select.normal, textarea.normal {
 		right: 0;
 		position: relative;
 		top: -56px;
-	}	
+	}
 	.mapArea {
 		margin-bottom:55px;
 	}
@@ -1416,10 +1414,10 @@ input.normal, select.normal, textarea.normal {
 	.navbar-collapse.in {
 		overflow-y: auto;
 	}
-	
+
 }
 
-@media only screen and (min-width: 768px) and (max-width:991px) {	
+@media only screen and (min-width: 768px) and (max-width:991px) {
 .noPadd {
 	padding:0 15px!important;
 }
@@ -1427,10 +1425,10 @@ input.normal, select.normal, textarea.normal {
 .bannerText h1 {
 	font-size:62px;
 }
-.line{ 
+.line{
 	display:none;
 	}
-.bride ul li, .groom ul li{ 
+.bride ul li, .groom ul li{
 	margin-right:5%;
 	}
 .pinkCircle a img, .blueCircle a img {
@@ -1438,15 +1436,15 @@ input.normal, select.normal, textarea.normal {
 	width: 100% !important;
 }
 
-.pinkCircle a em,.blueCircle a em{ 
-	left:20%; 
+.pinkCircle a em,.blueCircle a em{
+	left:20%;
 	top:33%;
 }
-	
-.dropdown-menu{ 
+
+.dropdown-menu{
 	left:22px !important;
 }
-a.anchor{ 
+a.anchor{
 	width:39%;
 	}
 h1 {
@@ -1505,15 +1503,15 @@ h2{
 .navbar-nav > li.active> a:hover{
 	background:#000 !important;
 }
-.navbar-inverse .navbar-toggle:hover, 
+.navbar-inverse .navbar-toggle:hover,
 .navbar-inverse .navbar-toggle:focus {
 	background-color:inherit;
 }
-.navbar-inverse .navbar-toggle.active, 
+.navbar-inverse .navbar-toggle.active,
 .navbar-inverse .navbar-toggle.active:focus {
 	background-color:#000;
 }
-.navbar-inverse .navbar-toggle.active .icon-bar, 
+.navbar-inverse .navbar-toggle.active .icon-bar,
 .navbar-inverse .navbar-toggle.active:focus .icon-bar {
 	background-color:#fff;
 }
@@ -1588,18 +1586,18 @@ ul.pricing-boxes li.best-plan {
 .footer {
 	text-align:center;
 }
-.footer .pull-left, 
+.footer .pull-left,
 .footer .pull-right {
 	float: none !important;
-}	
+}
 ul.portfolioContainer li.col-xs-6{
 	width:49%;
 	min-height: 85px;
-	
-}	
+
+}
 .bottomfourcol .col-sm-6 {
 	margin-bottom:15px;
-}	
+}
 .gototop {
 	top:0;
 }
@@ -1620,14 +1618,14 @@ ul.submenu li a{ padding:10px 10px !important; display:block; text-align:center 
 
 @media only screen and (min-width: 640px) and (max-width:767px) {
 
-.pinkCircle a, .blueCircle a{ 
+.pinkCircle a, .blueCircle a{
 	margin-bottom:20px;
 	}
 .pinkCircle a img, .blueCircle a img {
     height: 275px !important;
     width: 275px !important;
 }
-.pinkCircle a em, .blueCircle a em{ 
+.pinkCircle a em, .blueCircle a em{
 	left:39%;
 	}
 /*.bride ul li img, .groom ul li img {
@@ -1642,7 +1640,7 @@ ul.submenu li a{ padding:10px 10px !important; display:block; text-align:center 
     position: relative;
     top: -63px;
 }
-.dropdown-menu{ 
+.dropdown-menu{
 	left:22px !important;
 }
 .navArea {
@@ -1683,15 +1681,15 @@ ul.submenu li a{ padding:10px 10px !important; display:block; text-align:center 
 .navbar-nav > li.active> a:hover{
 	background:#000 !important;
 }
-.navbar-inverse .navbar-toggle:hover, 
+.navbar-inverse .navbar-toggle:hover,
 .navbar-inverse .navbar-toggle:focus {
 	background-color:inherit;
 }
-.navbar-inverse .navbar-toggle.active, 
+.navbar-inverse .navbar-toggle.active,
 .navbar-inverse .navbar-toggle.active:focus {
 	background-color:#000;
 }
-.navbar-inverse .navbar-toggle.active .icon-bar, 
+.navbar-inverse .navbar-toggle.active .icon-bar,
 .navbar-inverse .navbar-toggle.active:focus .icon-bar {
 	background-color:#fff;
 }
@@ -1706,7 +1704,7 @@ ul.submenu li a{ padding:10px 10px !important; display:block; text-align:center 
 	float:none;
 }
 ul.submenu { display:block; background-color:#676767;}
-	
+
 .navbar-toggle {
 	margin-top: 23px;
 }
@@ -1757,19 +1755,19 @@ ul.submenu li a{ padding:10px 10px !important; display:block; text-align:center 
 .bannerText h4 {
 	line-height:normal;
 }
-.pinkCircle a, .blueCircle a{ 
+.pinkCircle a, .blueCircle a{
 	margin-bottom:20px;
 	}
 
-.gallery .portfolio-item img{ 
+.gallery .portfolio-item img{
 	width:100%;
 	}
 
-a.anchor{ 
+a.anchor{
 	width:70%;
 	}
 
-.dropdown-menu{ 
+.dropdown-menu{
 	left:0 !important;
 	top:51px !important;
 }
@@ -1810,15 +1808,15 @@ a.anchor{
 .navbar-nav > li.active> a:hover{
 	background:#000 !important;
 }
-.navbar-inverse .navbar-toggle:hover, 
+.navbar-inverse .navbar-toggle:hover,
 .navbar-inverse .navbar-toggle:focus {
 	background-color:inherit;
 }
-.navbar-inverse .navbar-toggle.active, 
+.navbar-inverse .navbar-toggle.active,
 .navbar-inverse .navbar-toggle.active:focus {
 	background-color:#000;
 }
-.navbar-inverse .navbar-toggle.active .icon-bar, 
+.navbar-inverse .navbar-toggle.active .icon-bar,
 .navbar-inverse .navbar-toggle.active:focus .icon-bar {
 	background-color:#fff;
 }
@@ -1831,7 +1829,7 @@ a.anchor{
 .navbar-header {
 	float:none;
 }
-	
+
 .navbar-toggle {
 	margin-top: 23px;
 }
@@ -1875,12 +1873,11 @@ ul.submenu li a{ padding:10px 10px !important; display:block; text-align:center 
 .navbar-nav > li:hover ul.submenu li a:hover{ background:#272727;}
 }
 @media only screen and (min-width: 200px) and (max-width:400px) {
-	
+
 	.logo h1 {
 		font-size:21px;
 		font-weight:bold;
 		margin:27px 0 0;
 	}
-	
-}
 
+}
