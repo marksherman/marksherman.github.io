@@ -62,13 +62,13 @@
                       <li class="menuItem"><a href="#eventsSchedule">Events Schedule</a></li>
                       <li class="menuItem"><a href="#accommodations">Accommodations</a></li>
                       <!--li class="menuItem"><a href="#importantPeople">People</a></li-->
-                      <!--li class="menuItem"><a href="#photoAlbum">Gallery</a>
-                        <ul class="submenu">
+                      <li class="menuItem"><a href="#gallery">Gallery</a>
+                        <!--ul class="submenu">
                           <li><a href="portfolio-full.html">Gallery style 1</a></li>
                           <li><a href="portfolio-threecolumn.html">Gallery style 2</a></li>
                           <li><a href="portfolio-fourcolumn.html">Gallery style 3</a></li>
-                        </ul>
-                      </li-->
+                        </ul-->
+                      </li>
                       <!--li class="menuItem"><a href="#theBlog">Blog</a>
                         <ul class="submenu">
                           <li><a href='blog-large-image.html'><span>Blog 1</span></a></li>
@@ -306,34 +306,30 @@
   </section>
   <!--/Important People -->
   <!--Photo Album start -->
-  <!--section class="pricingtables section_gap" id="photoAlbum">
+  <section class="grey_section section_gap" id="gallery">
     <div class="container">
       <div class="row heading">
         <div class="col-xs_blank2 col-sm_blank2 col-md-5 col-lg-5 noPadd">
-          <h2>Photo Album<span>The Memorable moments </span></h2>
+          <h2>Photo Gallery<span>The Memorable moments </span></h2>
         </div>
         <div class=" col-xs_blank2 col-lg_blank2 col-md-7 col-lg-7 noPadd">
-          <p>Lorem ipsum dolor sit amet, consectetur adi pisi cing elit, sed do eiusmod tempor exercitationemut labore et dolore magna aliqua. Ut enim ad consequatur quis aliquip ex ea commodo consequat…</p>
+          <p>Some of our favorite photos from our engagement shoot are here for you to enjoy. Click below to see the gallery.</p>
         </div>
       </div>
       <div class="row gallery">
         <ul class="thumbnails">
-          <li class="span3 col-xs_blank2 col-sm-4 col-md-4 col-lg-4"> <span class="hoverZoom"> <span class="smallIcon"> <a rel="lightbox-demo" href="images/gallery/big-images/1.jpg" title="Album Title1" class="zoom lb lb_warsaw1"><i class="fa fa-search fa-2x"></i></a> </span> </span> <img class="group1" src="http://placehold.it/387x290&text=387px X 290px" title="Image Title" /> </li>
 
-          <li class="span3 col-xs_blank2 col-sm-4 col-md-4 col-lg-4"> <span class="hoverZoom"> <span class="smallIcon"> <a rel="lightbox-demo" href="images/gallery/big-images/2.jpg" title="Album Title" class="zoom lb lb_warsaw1"><i class="fa fa-search fa-2x"></i></a> </span> </span> <img class="group1" src="http://placehold.it/387x290&text=387px X 290px" title="Image Title" /> </li>
-
-          <li class="span3 col-xs_blank2 col-sm-4 col-md-4 col-lg-4"> <span class="hoverZoom"> <span class="smallIcon"> <a rel="lightbox-demo" href="images/gallery/big-images/3.jpg" title="Album Title" class="zoom lb lb_warsaw1"><i class="fa fa-search fa-2x"></i></a> </span> </span> <img class="group1" src="http://placehold.it/387x290&text=387px X 290px" title="Image Title" /> </li>
-
-          <li class="span3 col-xs_blank2 col-sm-4 col-md-4 col-lg-4"> <span class="hoverZoom"> <span class="smallIcon"> <a rel="lightbox-demo" href="images/gallery/big-images/4.jpg" title="Album Title" class="zoom lb lb_warsaw1"><i class="fa fa-search fa-2x"></i></a> </span> </span> <img class="group1" src="http://placehold.it/387x290&text=387px X 290px" title="Image Title" /> </li>
-
-          <li class="span3 col-xs_blank2 col-sm-4 col-md-4 col-lg-4"> <span class="hoverZoom"> <span class="smallIcon"> <a rel="lightbox-demo" href="images/gallery/big-images/5.jpg" title="Album Title" class="zoom lb lb_warsaw1"><i class="fa fa-search fa-2x"></i></a> </span> </span> <img class="group1" src="http://placehold.it/387x290&text=387px X 290px" title="Image Title" /> </li>
-
-          <li class="span3 col-xs_blank2 col-sm-4 col-md-4 col-lg-4"> <span class="hoverZoom"> <span class="smallIcon"> <a rel="lightbox-demo" href="images/gallery/big-images/6.jpg" title="Album Title" class="zoom lb lb_warsaw1"><i class="fa fa-search fa-2x"></i></a> </span> </span> <img class="group1" src="http://placehold.it/387x290&text=387px X 290px" title="Image Title" /> </li>
+          <li class="col-xs-8 col-sm-6 col-md-4 col-lg-4 col-xs-offset-2 col-sm-offset-3 col-md-offset-4 col-lg-offset-4">
+            <span class="hoverZoom"> <span class="smallIcon">
+              <a href="gallery.html" title="See the gallery" class="zoom"><i class="fa fa-camera-retro fa-2x"></i></a>
+            </span> </span>
+            <img src="images/gallery/thumb-images/976.jpg" title="See the gallery" />
+          </li>
 
         </ul>
       </div>
     </div>
-  </section-->
+  </section>
   <!--Photo Album end -->
   <!--Blog section start >
   <section class="lightYellow_section section_gap" id="theBlog">
@@ -580,7 +576,8 @@ $(document).ready( function() {
 		  0: 'theCouple',
 		  1: 'eventsSchedule',
 		  2: 'accommodations',
-		  3: 'rsvp'
+      3: 'gallery',
+		  4: 'rsvp'
 		},
 		itemClass: 'menuItem',
 		itemHover: 'active',
