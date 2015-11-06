@@ -1331,7 +1331,7 @@ h3.succes_message {
 	height:400px;
 	overflow:hidden;
 	width:100%;
-	margin:0;
+	margin:25px;
 	background:#d8d7db;
 }
 .mapArea iframe{
