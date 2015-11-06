@@ -1,6 +1,6 @@
 jQuery(
 function($) {
-	
+
 	$(document).ready(function(){
 		var contentButton = [];
 		var contentTop = [];
@@ -28,20 +28,20 @@ function($) {
 			$(this).addClass('stuckMenu');
         	//getting options
         	var objn = 0;
-        	if(options != null) {
+        	if(options !== null) {
 	        	for(var o in options.parts) {
 	        		if (options.parts.hasOwnProperty(o)){
 	        			content[objn] = options.parts[objn];
 	        			objn++;
 	        		}
 	        	}
-	  			if(objn == 0) {
+	  			if(objn === 0) {
 	  				console.log('error:needs arguments');
 	  			}
 
 	  			itemClass = options.itemClass;
 	  			itemHover = options.itemHover;
-	  			if(options.topMargin != null) {
+	  			if(options.topMargin !== null) {
 	  				if(options.topMargin == 'auto') {
 	  					topMargin = parseInt($('.stuckMenu').css('margin-top'));
 	  				} else {
@@ -52,37 +52,38 @@ function($) {
 	  					} else {
 	  						console.log("incorrect argument, ignored.");
 	  						topMargin = 0;
-	  					}	
+	  					}
 	  				}
 	  			} else {
 	  				topMargin = 0;
 	  			}
 	  			menuSize = $('.'+itemClass).size();
-  			}			
+  			}
 			stickyHeight = parseInt($(this).height());
 			stickyMarginB = parseInt($(this).css('margin-bottom'));
 			currentMarginT = parseInt($(this).next().closest('div').css('margin-top'));
 			vartop = parseInt($(this).offset().top);
 			//$(this).find('*').removeClass(itemHover);
-		}
+		};
 		$(document).on('scroll', function() {
 			varscroll = parseInt($(document).scrollTop());
-			if(menuSize != null){
+			if(menuSize !== null){
+				var bottomView = function(i) {
+					contentView = $('#'+content[i]+'').height()*0.4;
+					testView = contentTop[i] - contentView;
+					//console.log(varscroll);
+					if(varscroll > testView){
+						$('.'+itemClass).removeClass(itemHover);
+						$('.'+itemClass+':eq('+i+')').addClass(itemHover);
+					} else if(varscroll < 100){
+						$('.'+itemClass).removeClass(itemHover);
+						$('.'+itemClass+':eq(0)').addClass(itemHover);
+					}
+				};
 				for(var i=0;i < menuSize;i++)
 				{
 					contentTop[i] = $('#'+content[i]+'').offset().top;
-					function bottomView(i) {
-						contentView = $('#'+content[i]+'').height()*.4;
-						testView = contentTop[i] - contentView;
-						//console.log(varscroll);
-						if(varscroll > testView){
-							$('.'+itemClass).removeClass(itemHover);
-							$('.'+itemClass+':eq('+i+')').addClass(itemHover);
-						} else if(varscroll < 100){
-							$('.'+itemClass).removeClass(itemHover);
-							$('.'+itemClass+':eq(0)').addClass(itemHover);
-						}
-					}
+
 					if(scrollDir == 'down' && varscroll > contentTop[i]-100 && varscroll < contentTop[i]+100) {
 						$('.'+itemClass).removeClass(itemHover);
 						$('.'+itemClass+':eq('+i+')').addClass(itemHover);
@@ -107,7 +108,7 @@ function($) {
 				}, 10, function(){
 
 				});
-			};
+			}
 
 			if(varscroll + topMargin < vartop){
 				$('.wrapper').removeClass('spHeight');
@@ -116,7 +117,7 @@ function($) {
 					'margin-top': currentMarginT + 'px'
 				}, 10);
 				$('.stuckMenu').css("position","relative");
-			};
+			}
 
 		});
 	});
