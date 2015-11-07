@@ -790,6 +790,21 @@ ul.theCouple li{
 /*----------------------------------------------------
 	6A. Accomodations Section
 ------------------------------------------------------*/
+.accomBox {
+    border: 1px solid #e2e0e0;
+    box-sizing: border-box;
+    padding: 3%;
+}
+.accomBox p{ padding:0;}
+.accomBox h4{
+	color:#ee6593;
+	font-family: 'Open Sans', sans-serif;
+	font-weight:700;
+	text-transform:uppercase;
+	}
+.accomBox h4 a {
+	color:inherit;
+}
 .addr {
 	padding:3%;
 }
