@@ -672,10 +672,10 @@ ul.theCouple li{
 	border:1px solid #e8e6e3;
 	background:#fff;
 	}
-	/*----------------------------------------------------
-		5A. Marks' Hacks for Image Linking
-	------------------------------------------------------*/
 
+/*----------------------------------------------------
+		5A. Marks' Hacks for Image Linking
+------------------------------------------------------*/
 /* Video thumb is 460 x 258 */
 .vidcontainer {
     position: relative;
@@ -1039,6 +1039,36 @@ ul.thumbnails li:hover span.hoverZoom .zoom{
 	-webkit-transition-duration: 0.2s;
 }
 
+/*----------------------------------------------------
+		8A. Marks' Hacks for Image Linking
+------------------------------------------------------*/
+/* Video thumb is 387 x 258 - widgth is different from video (460)*/
+.imgcontainer {
+    position: relative;
+		border: 4px solid #ee6593;
+
+		width: 403px;
+		height: 274px;
+
+		margin-left: auto;
+	  margin-right: auto;
+}
+
+.imgimage {
+    position: absolute;
+    left: 4px;
+    top: 4px;
+}
+
+.imgSmallIcon {
+	width: 60px;
+	margin: 0px auto;
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	margin-left: -30px;
+	margin-top: -27px;
+}
 
 
 /*----------------------------------------------------
