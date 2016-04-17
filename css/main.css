@@ -1231,6 +1231,27 @@ figcaption h4 a {
 .googleMap{
 	margin-bottom:160px;
 	}
+/*--- Slight cheat, this is for the Registry section ---*/
+.registryBack{
+	background:url('../myimg/honeyfund-background.png') no-repeat center;
+	background-size:cover;
+	padding-top:60px;
+	padding-bottom: 60px;
+	}
+.registryBack h4{
+	font-size:19px;
+	font-weight:700;
+	color:#fff;
+	margin-bottom:55px;
+	font-family: 'Open Sans', sans-serif;
+	text-transform:uppercase;
+	letter-spacing:3px;
+	}
+.centerButton{
+
+	text-align: center;
+	padding-bottom: 0;
+}
 
 
 /*----------------------------------------------------

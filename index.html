@@ -60,8 +60,9 @@
                   <div class="navbar-collapse collapse">
                     <ul class="nav navbar-nav" id="navigation">
                       <!-- ALSO CHANGE THE JS AT THE BOTTOM TO MATCH THE MENU! -->
-                      <li class="menuItem" id="home"><a href="#theCouple">The Couple</a></li>
+                      <!--<li class="menuItem" id="home"><a href="#theCouple">The Couple</a></li>-->
                       <li class="menuItem"><a href="#eventsSchedule">Events Schedule</a></li>
+                      <li class="menuItem"><a href="#registry">Registry</a></li>
                       <li class="menuItem"><a href="#accommodations">Accommodations</a></li>
                       <!--li class="menuItem"><a href="#importantPeople">People</a></li-->
                       <li class="menuItem"><a href="#gallery">Gallery</a>
@@ -234,8 +235,35 @@
     </div>
   </section>
   <!--/Events Schedule end -->
+  <!--Registry section start -->
+  <section class="yellow_section section_gap" id="registry">
+    <div class="container">
+      <div class="row heading">
+        <div class="col-xs_blank2 col-sm_blank2 col-md-4 col-lg-4 noPadd">
+          <h2>Registry<span>Thank you!</span></h2>
+        </div>
+        <div class=" col-xs_blank2 col-lg_blank2 col-md-8 col-lg-8">
+          <p>We are honored you will share in our special day. Your presence is our gift!
+            We're lucky to already have a home full of everything we need, so please enjoy browsing our wish list,
+            where you can <a href="http://www.honeyfund.com/wedding/markandstacy2016" target="_blank">contribute</a> to our dream honeymoon!</p>
+          <p>(If you are looking for Stacy's bridal shower registry through Williams-Sonoma, please <a href="https://secure.williams-sonoma.com/registry/6l55sn8v8l/registry-list.html" target="_blank">click here</a>)</p>
+        </div>
+      </div>
+    </div>
+    <div class="container-fluid registryBack">
+      <div class="container">
+        <div class="row">
+          <div class="col-md-12 centerButton">
+            <a class="btn btn-primary" href="http://www.honeyfund.com/wedding/markandstacy2016" target="_blank" role="button">Contribute to Honeyfund</a>
+
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+  <!--Registry section end -->
   <!-- accommodations -->
-  <section class="yellow_section section_gap" id="accommodations">
+  <section class="white_section section_gap" id="accommodations">
     <div class="container">
       <div class="row heading">
         <div class="col-xs_blank2 col-sm_blank2 col-md-5 col-lg-5 noPadd">
@@ -598,8 +626,8 @@ $(document).ready( function() {
 	//enabling stickUp on the '.navbar-wrapper' class
 	$('.navbar-wrapper').stickUp({
 		parts: {
-		  0: 'theCouple',
-		  1: 'eventsSchedule',
+		  0: 'eventsSchedule',
+      1: 'registry',
 		  2: 'accommodations',
       3: 'gallery',
 		  4: 'rsvp'
