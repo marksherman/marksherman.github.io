@@ -787,6 +787,22 @@ ul.theCouple li{
 	-webkit-border-radius: 0;
 	border-radius: 0;
 }
+.btn-success {
+	line-height:50px;
+	font-size:15px;
+	color:#fff;
+	text-transform:uppercase;
+	font-weight:700;
+	/*background:#853385;*/
+	background:#B16FAE;
+	border:none;
+	/*border-bottom:3px solid #853385;*/
+	border-bottom:3px solid #B16FAE;
+	display:inline-block;
+	padding:0 47px;
+	-webkit-border-radius: 0;
+	border-radius: 0;
+}
 /*----------------------------------------------------
 	6A. Accomodations Section
 ------------------------------------------------------*/
@@ -1217,7 +1233,8 @@ figcaption h4 a {
 .rsvpBack{
 	background:url('../myimg/RSVP-background.png') no-repeat 50% 0;
 	background-size:cover;
-	padding-top:80px;
+	padding-top:60px;
+	padding-bottom:60px;
 	}
 .rsvpBack h4{
 	font-size:19px;
@@ -1236,7 +1253,7 @@ figcaption h4 a {
 	background:url('../myimg/honeyfund-background.png') no-repeat center;
 	background-size:cover;
 	padding-top:60px;
-	padding-bottom: 60px;
+	padding-bottom:60px;
 	}
 .registryBack h4{
 	font-size:19px;
@@ -1266,7 +1283,7 @@ figcaption h4 a {
 	height:100%;
 }
 .form-container {
-	min-height:550px;
+	min-height:250px;
 	padding:60px;
 	background-color:#fff;
 	right:0;
