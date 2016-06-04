@@ -30,7 +30,7 @@
 <!-- font icon css style-->
 <link rel="stylesheet" href="css/font-awesome.min.css">
 </head>
-<body onload="load()" onunload="GUnload()">
+<body>
 
 <!--wrapper start-->
 <div class="wrapper" id="wrapper">
@@ -406,31 +406,6 @@
 <script type="text/javascript" src="js/jquery.ui.rlightbox.js"></script>
 
 <!--contact form js-->
-<script type="text/javascript" src="js/jquery.contact.js"></script>
-<script src="http://maps.google.com/maps?file=api&amp;v=2.x&amp;key=ABQIAAAAjU0EJWnWPMv7oQ-jjS7dYxSPW5CJgpdgO_s4yyMovOaVh_KvvhSfpvagV18eOyDWu7VytS6Bi1CWxw" type="text/javascript"></script>
-<script type="text/javascript">
-    //<![CDATA[
-    var map;
-
-    function load() {
-      if (GBrowserIsCompatible()) {
-        map = new GMap2(document.getElementById("map"));
-        map.setCenter(new GLatLng(42.3745309, -72.52059), 13);
-        document.getElementById("map").checked = true;
-        toggleZoom(false);
-      }
-    }
-
-    function toggleZoom(isChecked) {
-      if (isChecked) {
-        map.enableScrollWheelZoom();
-      } else {
-        map.disableScrollWheelZoom();
-      }
-    }
-
-    //]]>
-</script>
 
 <!--about jquery-->
 <script defer src="js/jquery.flexslider.js"></script>
