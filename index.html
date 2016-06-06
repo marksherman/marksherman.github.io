@@ -184,11 +184,21 @@
 
       <div class="row clearfix">
         <div class="col-md-12">
-          <div class="vidcontainer">
+          <div class="vidcontainer hidden-xs">
             <a href="https://www.youtube.com/watch?v=yvLtdCu0YIA" target="_blank">
               <video id="gfyVid1" class="vidcenter vidimage" width="460" height="258" autoplay="" loop="" muted="muted" poster="http://thumbs.gfycat.com/FlashyThankfulBlackbear-poster.jpg">
                 <source id="webmsource" src="http://zippy.gfycat.com/FlashyThankfulBlackbear.webm" type="video/webm">
                 <source id="mp4source" src="http://zippy.gfycat.com/FlashyThankfulBlackbear.mp4" type="video/mp4">
+                  Sorry, you don't have HTML5 video and we didn't catch this properly in javascript.
+              </video>
+              <div class="vidSmallIcon"><i class="fa fa-youtube-play fa-4x"></i></div>
+            </a>
+          </div>
+          <div class="vidcontainer-xs visible-xs">
+            <a href="https://www.youtube.com/watch?v=yvLtdCu0YIA" target="_blank">
+              <video id="gfyVid1-xs" class="vidcenter vidimage-xs" autoplay="" loop="" muted="muted" poster="http://thumbs.gfycat.com/FlashyThankfulBlackbear-poster.jpg">
+                <source id="webmsource-xs" src="http://zippy.gfycat.com/FlashyThankfulBlackbear.webm" type="video/webm">
+                <source id="mp4source-xs" src="http://zippy.gfycat.com/FlashyThankfulBlackbear.mp4" type="video/mp4">
                   Sorry, you don't have HTML5 video and we didn't catch this properly in javascript.
               </video>
               <div class="vidSmallIcon"><i class="fa fa-youtube-play fa-4x"></i></div>
@@ -267,7 +277,9 @@
     <div class="container">
       <div class="row heading">
         <div class="col-xs_blank2 col-sm_blank2 col-md-5 col-lg-5 noPadd">
-          <h2>Accommodations<span>Amherst, Massachusetts</span></h2>
+          <h2 class="hidden-xs">Accommodations<span>Amherst, Massachusetts</span></h2>
+          <h2 class="visible-xs h2-line-break">Accom-</h2>
+          <h2 class="visible-xs">modations<span>Amherst, Massachusetts</span></h2>
         </div>
         <div class=" col-xs_blank2 col-lg_blank2 col-md-7 col-lg-7 noPadd">
           <p>This weekend in the Berkshires will be very popular for vacationers and students alike. We advise you book your hotel early - most are available for booking now.</p>
@@ -327,9 +339,15 @@
       </div>
       <div class="row clearfix">
         <div class="col-md-12">
-          <div class="imgcontainer">
+          <div class="imgcontainer hidden-xs">
             <a href="gallery.html">
               <img class="imgimage" src="images/gallery/thumb-images/976.jpg" title="See the gallery" />
+              <div class="imgSmallIcon"><i class="fa fa-camera fa-4x"></i></div>
+            </a>
+          </div>
+          <div class="imgcontainer-xs visible-xs">
+            <a href="gallery.html">
+              <img class="imgimage-xs" src="images/gallery/thumb-images/976.jpg" title="See the gallery" />
               <div class="imgSmallIcon"><i class="fa fa-camera fa-4x"></i></div>
             </a>
           </div>
