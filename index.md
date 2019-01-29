@@ -1,0 +1,15 @@
+---
+layout: home
+title: Home
+---
+Mark Sherman, Ph.D.
+
+Assistant Professor of Computer Science
+
+Director, Integrated Digital & Data Sciences Initiative
+
+Emmanuel College
+
+Administration Building 326B
+
+617-732-1783  he/him/his  shermanm@emmanuel.edu
