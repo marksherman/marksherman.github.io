@@ -6,7 +6,7 @@ title: Publications
 Derek Walter and Mark Sherman. (2014) Learning MIT App Inventor: A Hands-On Guide to Building Your Own Android Apps. Addison-Wesley Professional.
 
 ## Dissertation
-“Detecting Student Progress During Programming Activities by Analyzing Edit Operation on their Blocks-Based Programs,” 2017.
+[“Detecting Student Progress During Programming Activities by Analyzing Edit Operation on their Blocks-Based Programs,” 2017.](https://github.com/marksherman/umlthesis/releases/download/1/sherman-phd.pdf)
 
 ## Journals and Conferences
 Evan W. Patton, Mark Sherman, Michael Tissenbaum. (2018) Research Tools for MIT App Inventor. Blocks+ Workshop at ACM SIGPLAN Systems, Programming, Languages, and Applications: Software for Humanity conference (SPLASH 2018). 
@@ -45,4 +45,4 @@ Sherman, Bassil, Lipman, Tuck, Martin. Impact of Auto-Grading on and Introductor
 
 Sherman, Martin, Scribner-MacLean. (2011) The Role of Iteration in the Design Process of Middle School Students. In Proceedings of the 8th ACM conference on Creativity and Cognition, pp. 391-392.
 
-Sherman. (2010) Exploration of Natural Design Tendencies of Novice Engineers (Masters Thesis). University of Massachusetts Lowell.
+Sherman. (2010) [Exploration of Natural Design Tendencies of Novice Engineers (Masters Thesis).](https://github.com/marksherman/msthesis/releases/download/4.1/msherman-ms-r4_1.pdf) University of Massachusetts Lowell.
