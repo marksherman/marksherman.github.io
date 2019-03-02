@@ -155,10 +155,11 @@ Sherman, Martin, Scribner-MacLean. (2011) The Role of Iteration in the Design Pr
 Sherman. (2010) Exploration of Natural Design Tendencies of Novice Engineers (Masters Thesis). University of Massachusetts Lowell.
 
 # Professional Activity
-* Member, Computer Science Teachers Association, National and Greater Boston Chapter
-* Reviewer, Connected Learning Summit 2018
-* CS Ed Week and Hour of Code Advisory Committee, code.org
 * Research Member of CSforALL Consortium
+* Member, Computer Science Teachers Association, National and Greater Boston Chapter
+* CS Ed Week and Hour of Code Advisory Committee, code.org
+* Co-Chair, Beyond Blocks Workshop 2019 (location tba)
+* Reviewer, Connected Learning Summit 2018
 * Co-Chair, Blocks & Beyond II Workshop at VL/HCC 2017
 * Special Reviewer, TOCE Special Issue on Learning Analytics 2017
 * Reviewer, Experience Reports and Tools for SIGCSE 2018
@@ -166,6 +167,7 @@ Sherman. (2010) Exploration of Natural Design Tendencies of Novice Engineers (Ma
 
 
 # Conferences Attended
+* SIGCSE 2019 Minneapolis - Panelist, SIGCAS "Computing for Social Good" pre-symposium 
 * Blocks+ Workshop at ACM SIGPLAN SPLASH 2018 Boston
 * Connected Learning Summit (CLS) 2018 at MIT Media Lab
 * International Conference on Computational Thinking Education (CTE) 2018, Hong Kong
