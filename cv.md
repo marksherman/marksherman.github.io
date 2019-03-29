@@ -6,7 +6,7 @@ permalink: /resume/
 ---
 January 29, 2019
 
-[Download a pdf here](../files/Mark_Sherman_CV_2019-01-29.pdf)
+[Download a pdf here](files/Mark_Sherman_CV_2019-01-29.pdf)
 
 ***
 
@@ -154,19 +154,24 @@ Sherman, Martin, Scribner-MacLean. (2011) The Role of Iteration in the Design Pr
 
 Sherman. (2010) Exploration of Natural Design Tendencies of Novice Engineers (Masters Thesis). University of Massachusetts Lowell.
 
-# Professional Activity
-* Research Member of CSforALL Consortium
-* Member, Computer Science Teachers Association, National and Greater Boston Chapter
+# Memberships
+* CSforALL Consortium, Research Member
+* Computer Science Teachers Association (CSTA), National and Greater Boston Chapter
 * CS Ed Week and Hour of Code Advisory Committee, code.org
-* Co-Chair, Beyond Blocks Workshop 2019 (location tba)
+* Association of Computing Machinery (ACM)
+* ACM Special Interest Group in Computer Science Education (SIGCSE)
+
+# Professional Activity
+* Co-Chair, *Blocks and Beyond 2019* workshop at VL/HCC
+//* Reviewer, TOCE 2019 
+* Participant, NSF DSA Next-Generation Digital Learning Environments Workshop at Carroll University, 2019
 * Reviewer, Connected Learning Summit 2018
-* Co-Chair, Blocks & Beyond II Workshop at VL/HCC 2017
+* Co-Chair, *Blocks & Beyond II* Workshop at VL/HCC 2017
 * Special Reviewer, TOCE Special Issue on Learning Analytics 2017
 * Reviewer, Experience Reports and Tools for SIGCSE 2018
-* Member ACM, SIGCSE
-
 
 # Conferences Attended
+* NSF DSA Next-Generation Digital Learning Environments Workshop at Carroll University, 2019
 * SIGCSE 2019 Minneapolis - Panelist, SIGCAS "Computing for Social Good" pre-symposium 
 * Blocks+ Workshop at ACM SIGPLAN SPLASH 2018 Boston
 * Connected Learning Summit (CLS) 2018 at MIT Media Lab
@@ -182,6 +187,7 @@ Sherman. (2010) Exploration of Natural Design Tendencies of Novice Engineers (Ma
 * Google I/O 2011 developer conference, San Francisco, CA
 
 # Grant Support
+* 2017-2018 The Hong Kong Jockey Club Charities Trust [*CoolThink@JC.*](https://www.csail.mit.edu/news/teaching-hong-kong-students-embrace-computational-thinking) PI: Dr. Hal Abelson   
 * 2015-2017 NSF Middle School Pathways Grant No. 1433592. PI: Dr. Fred Martin, Molly Laden.
 * 2011-2014 NSF Transforming Undergraduate Education through STEM, DUE-1225719 PI: Dr. Fred Martin
 * 2009-2010 National Science Foundation GK-12 Fellowship. DGE-0841392 PI: Dr. Kavitha Chandra
