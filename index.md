@@ -2,6 +2,7 @@
 layout: home
 title: Home
 ---
+<img align="right" src="img/fb_scarf.jpg">
 Mark Sherman, Ph.D.
 
 Assistant Professor of Computer Science

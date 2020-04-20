@@ -163,7 +163,7 @@ Sherman. (2010) Exploration of Natural Design Tendencies of Novice Engineers (Ma
 
 # Professional Activity
 * Co-Chair, *Blocks and Beyond 2019* workshop at VL/HCC
-//* Reviewer, TOCE 2019 
+//* Reviewer, TOCE "Improving Engagement in Program Construction Examples for Learning Python Programming" 2019
 * Participant, NSF DSA Next-Generation Digital Learning Environments Workshop at Carroll University, 2019
 * Reviewer, Connected Learning Summit 2018
 * Co-Chair, *Blocks & Beyond II* Workshop at VL/HCC 2017
