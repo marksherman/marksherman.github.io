@@ -3,6 +3,7 @@ layout: post
 title:  "Astroturfing during COVID-19 Reading List"
 ---
 This was a reading list that I put together for my Digital Citizenship course during the COVID-19 pandemic. 
+Updated 21 April 2020.
 
 # Today's topic is Atroturfing.
 > noun. US: The disguising of an orchestrated campaign as a "grass-roots" event – i.e., a spontaneous upwelling of public opinion.
@@ -48,6 +49,11 @@ The websites and facebook groups behind these groups appeared seemingly overnigh
 I did some investigation on my own. I ran a little test where I looked for the domain registration for each reopen[STATE].com  using all 50 state abbreviations. The registration of every domain is public record and easily found, You can do similar inquiries by going to [www.godaddy.com/whois](https://www.godaddy.com/whois). 
 
 The registrant information is obfuscated in almost all of them, but what's shocking is that all 50 states exist, and with the exception of a two outliers, all of then were created between April 4 and April 17, with a suspicious 32 of them all created on April 17. This appears to support the hypothesis of there being organized, national influence behind these individual movements. (This post was written on April 20.) My raw data is below. 
+
+# A Professional Investigation
+(added April 21, 2020)
+Krebs on Security, a professional security  blog, published an even more thorough investigation a day later:
+[https://krebsonsecurity.com/2020/04/whos-behind-the-reopen-domain-surge/](https://krebsonsecurity.com/2020/04/whos-behind-the-reopen-domain-surge/)
 
 # What I want you to write about
 So what's going on? Is astroturfing happening, to what degree? The people who show up at these things must still have motivation to do so- what do you hypothesize that motivation could be? Have you seen people act in harmful ways (to themselves or to others)? How much do you trust the sources that I linked? Did you look a level deeper at where they got their information from? 
