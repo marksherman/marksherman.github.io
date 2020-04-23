@@ -1,7 +1,6 @@
 ---
 layout: page
 title: CLI Cheat Sheet
-permalink: /help/cli
 ---
 cheat_sheet.org.sh
 
