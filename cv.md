@@ -1,8 +1,8 @@
 ---
-layout: page
+layout: single
 title: Curriculum Vitae
 permalink: /cv/
-permalink: /resume/
+toc: true
 ---
 January 29, 2019
 

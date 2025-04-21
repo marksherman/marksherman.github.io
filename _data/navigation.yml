@@ -1,0 +1,13 @@
+# main links
+main:
+  - title: "About"
+    url: /about/
+  - title: "Lab"
+    url: /lab/
+  - title: "Curriculum Vitae"
+    url: /cv/
+  - title: "Publications"
+    url: /publications/
+  - title: "CLI Cheat Sheet"
+    url: /cli-cheat-sheet/
+  

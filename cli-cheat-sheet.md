@@ -1,6 +1,7 @@
 ---
-layout: page
+layout: single
 title: CLI Cheat Sheet
+toc: true
 ---
 cheat_sheet.org.sh
 

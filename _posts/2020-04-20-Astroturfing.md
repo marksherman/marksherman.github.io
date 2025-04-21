@@ -1,5 +1,5 @@
 ---
-layout: post
+layout: single
 title:  "Astroturfing during COVID-19 Reading List"
 ---
 This was a reading list that I put together for my Digital Citizenship course during the COVID-19 pandemic. 
